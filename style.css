@@ -1,11 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 header{
-    background-image: url('images/background.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('images/background.png');
     background-size: cover;
     background-position: center;
     font-family: 'inter';
     color: white;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
 
     /* display text in the middle of the page */
     display: flex;
@@ -17,7 +21,7 @@ header{
     flex-direction: column;
 }
 
-button{
+a{
     background-color: #ff00cc;
     color: white;
     border: none;
@@ -25,31 +29,51 @@ button{
     text-decoration: none;
     border-radius: 25px;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
 }
 
+h2 {
+    margin-bottom: 2%;
+}
+
 #collage{
-    width: 90%;
+    width: 100%;
     height: auto;
 
 }
 
 div{
     font-family: 'inter';
-    margin: 25px;
+    margin: 4%;
 }
 
 p{
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'inter';
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 4%;
+    gap: 4%;
+}
+
+.experience img{
+width: 28vw;
+height: auto;
 }
 
 footer{
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 2%;
     font-family: 'inter';
-
-    line-height: 5%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
 }
+
